@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Techcast Task Client</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+
+    <body>
+        <div id="interface">
+            <div id="messages-wrapper">
+                <ul id="messages"></ul>
+            </div>
+
+            <form id="message-creation">
+                <input
+                    id="message-input"
+                    type="text"
+                    placeholder="Type your message here..."
+                >
+
+                <button id="message-confirm">
+                    <img src="./images/paper_plane_icon.svg">
+                </button>
+            </form>
+
+            <div id="push-messages-header">
+                <h2 id="push-messages-title">
+                    Push Messages
+                </h2>
+
+                <!-- to get to the admin page easily, note that socket sessions are not preserved and each client load acts as a novel client connection, the session will be lost when returning -->
+                <a
+                    id="admin-opener"
+                    href="./admin/index.html"
+                >
+                    <img src="./images/admin_icon.svg">
+                </a>
+            </div>
+
+            <div id="push-messages-wrapper">
+                <ul id="push-messages"></ul>
+            </div>
+        </div>
+
+        <script defer src="./index.js"></script>
+    </body>
+</html>
