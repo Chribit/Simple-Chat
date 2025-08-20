@@ -32,7 +32,7 @@ const pushMessages : PushMessageDatum[] = [];
 const adminTokens : Set<number> = new Set();
 
 // This is OBVIOUSLY not how it should be done in production, but for a proof of concept this suffices
-const passwordString : string = "techcastadmin";
+const passwordString : string = "chatadmin";
 const passwordSalt : string = genSaltSync(10);
 const adminPassword : string = hashSync(passwordString, passwordSalt);
 
