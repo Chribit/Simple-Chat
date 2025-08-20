@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 type Author = {
     initials : string,
     hexColor : string
-}
+};
 
 type MessageDatum = {
     author : Author,
