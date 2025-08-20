@@ -1,5 +1,5 @@
-# Techcast-Task
-A task completed for my job application at [Techcast GmbH](https://www.techcast.com/).
+# Simple Chatapp
+A rudimentary chat app with admin panel function for global push message maintenance.
 
 ## Setup
 
@@ -18,7 +18,7 @@ The admin password for this demonstration is `techcastadmin`.
 
 ## Explanation
 
-As this task is minor in scope, no frontend framework was utilised to reduce unnecessary bloat and overall complexity.<br>
+As this demonstration is minor in scope, no frontend framework was utilised to reduce unnecessary bloat and overall complexity.<br>
 A rudimentary build process using a CSS minifier and webpack was set up to produce *somewhat* optimal production ready files. CSS and JS injection was left out of the procedure to not only simplify the setup but also cater to the more modern web developer wisdom of serving multiple small files instead of one larger one.<br>
 All styling is custom made.<br>
 Icons sourced from [SVG Repo](https://www.svgrepo.com/).
