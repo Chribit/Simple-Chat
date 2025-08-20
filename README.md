@@ -14,7 +14,7 @@ Run `npm start` to start the service.<br>
 The client is then accessible at your [localhost](http://localhost:3000).<br>
 The admin interface can be accessed via [localhost/admin](http://localhost:3000/admin).
 
-The admin password for this demonstration is `techcastadmin`.
+The admin password for this demonstration is `chatadmin`.
 
 ## Explanation
 
